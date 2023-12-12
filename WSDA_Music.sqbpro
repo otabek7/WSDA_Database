@@ -112,11 +112,18 @@ ORDER BY
 */
 
 SELECT
-	*
+	c.FirstName,
+	c.LastName,
+	i.InvoiceId,
+	i.CustomerId,
+	i.InvoiceDate,
+	i.total
 FROM
-	Invoice
+	Invoice AS i
 INNER JOIN
-	Customer
+	Customer AS c
 ON
-	Invoice.CustomerId = Customer.CustomerId
+	i.CustomerId = c.CustomerId
+ORDER BY
+	c.CustomerId
 </sql><current_tab id="6"/></tab_sql></sqlb_project>
