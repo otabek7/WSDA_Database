@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/otabekm/Downloads/Ex_Files_SQL_EssT/Ex_Files_SQL_EssT/Exercise Files/WSDA_Music.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="3930"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,8:mainCustomer"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="Album" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="61"/><column index="2" value="219"/><column index="3" value="59"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Customer" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="1" mode="0"/></sort><column_widths><column index="1" value="83"/><column index="2" value="71"/><column index="3" value="83"/><column index="4" value="294"/><column index="5" value="264"/><column index="6" value="132"/><column index="7" value="44"/><column index="8" value="96"/><column index="9" value="80"/><column index="10" value="128"/><column index="11" value="122"/><column index="12" value="183"/><column index="13" value="98"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Genre" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="59"/><column index="2" value="112"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Invoice" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="1" mode="0"/></sort><column_widths><column index="1" value="68"/><column index="2" value="83"/><column index="3" value="129"/><column index="4" value="264"/><column index="5" value="132"/><column index="6" value="80"/><column index="7" value="96"/><column index="8" value="116"/><column index="9" value="53"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Track" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="56"/><column index="2" value="145"/><column index="3" value="61"/><column index="4" value="90"/><column index="5" value="59"/><column index="6" value="190"/><column index="7" value="84"/><column index="8" value="77"/><column index="9" value="65"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">/*
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/HOME-PC/Documents/Database Files/WSDA_Database/WSDA_Music.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="3930"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,7:mainInvoice"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="Album" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="61"/><column index="2" value="219"/><column index="3" value="59"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Customer" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="1" mode="1"/></sort><column_widths><column index="1" value="83"/><column index="2" value="71"/><column index="3" value="83"/><column index="4" value="294"/><column index="5" value="264"/><column index="6" value="132"/><column index="7" value="44"/><column index="8" value="96"/><column index="9" value="80"/><column index="10" value="128"/><column index="11" value="122"/><column index="12" value="183"/><column index="13" value="98"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Employee" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="82"/><column index="2" value="71"/><column index="3" value="71"/><column index="4" value="124"/><column index="5" value="75"/><column index="6" value="129"/><column index="7" value="129"/><column index="8" value="178"/><column index="9" value="67"/><column index="10" value="44"/><column index="11" value="60"/><column index="12" value="80"/><column index="13" value="115"/><column index="14" value="115"/><column index="15" value="168"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Genre" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="59"/><column index="2" value="112"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Invoice" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort><column index="2" mode="1"/></sort><column_widths><column index="1" value="68"/><column index="2" value="83"/><column index="3" value="129"/><column index="4" value="264"/><column index="5" value="132"/><column index="6" value="80"/><column index="7" value="96"/><column index="8" value="116"/><column index="9" value="53"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Track" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="56"/><column index="2" value="145"/><column index="3" value="61"/><column index="4" value="90"/><column index="5" value="59"/><column index="6" value="190"/><column index="7" value="84"/><column index="8" value="77"/><column index="9" value="65"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">/*
 	CREATED BY: Otabek
 	CREATE DATE: 12/12/2023
 	DESCRIPTION: This query displays all customers first, last names, and email addresses
@@ -27,88 +27,109 @@ FROM
 WHERE
 	total BETWEEN 1.98 AND 5.00
 ORDER BY
-	InvoiceDate</sql><sql name="SQL 4">/*
+	InvoiceDate</sql><sql name="SQL 4">/*
+	CREATED BY: Otabek
+	CREATE DATE: 12/12/2023
+	DESCRIPTION: This query displays customers who bought tracks from cities that only have the letter B/b in their billing city
+*/
+SELECT
+	InvoiceDate,
+	BillingAddress,
+	BillingCity,
+	total
+FROM
+	Invoice
+WHERE
+	BillingCity LIKE '%B%'
+ORDER BY
+	InvoiceDate</sql><sql name="SQL 5">/*
+	CREATED BY: Otabek
+	CREATE DATE: 12/12/2023
+	DESCRIPTION: How many invoices were billed on 2010-05-22 00:00:00
+*/
+
+SELECT
+	InvoiceDate,
+	BillingAddress,
+	BillingCity,
+	total
+FROM
+	Invoice
+WHERE
+	DATE(InvoiceDate) = '2010-05-22'
+	InvoiceDate = '2010-05-22 00:00:00'
+ORDER BY
+	InvoiceDate</sql><sql name="SQL 6">/*
+	CREATED BY: Otabek
+	CREATE DATE: 12/12/2023
+	DESCRIPTION: Get all invoices that were billed after 2010-05-22 AND have a total of less than $3.00?
+*/
+
+SELECT
+	InvoiceDate,
+	BillingAddress,
+	BillingCity,
+	total
+FROM
+	Invoice
+WHERE
+	DATE(InvoiceDate) &gt; '2010-05-22' AND total&lt;3.00
+ORDER BY
+	InvoiceDate</sql><sql name="SQL 7">/*
+	CREATED BY: Otabek
+	CREATE DATE: 12/12/2023
+	DESCRIPTION: Want as many customers as possible to spend between $7.00 and $15.00
+	
+	Sales Categories:
+	Baseline Purchase--  Between 0.99 and 1.99
+	Low Purchase--  Between 2.00 and 6.99
+	Target Purchase--  Between 7.00 and 15.00
+	Top Performer--  Above 15.00
+*/
+
+SELECT
+	InvoiceDate,
+	BillingAddress,
+	BillingCity,
+	total,
+	CASE
+	WHEN total &lt; 2.00 THEN 'BASELINE PURCHASE'
+	WHEN total BETWEEN 2.00 AND 6.99 THEN 'LOW PURCHASE'
+	WHEN total BETWEEN 7.00 AND 15.00 THEN 'TARGET PURCHASE'
+	--WHEN total &gt; 15 THEN 'BASELINE PURCHASE'
+	ELSE 'TOP PERFORMER'
+	END AS PurchaseType
+
+FROM
+	Invoice
+WHERE
+	PurchaseType = 'TOP PERFORMER'
+ORDER BY
+	BillingCity</sql><sql name="SQL 8">/*
+	CREATED BY: Otabek
+	CREATE DATE: 12/12/2023
+	DESCRIPTION: Joins
+*/
+
+SELECT
+	c.FirstName,
+	c.LastName,
+	i.InvoiceId,
+	i.CustomerId,
+	i.InvoiceDate,
+	i.total
+FROM
+	Invoice AS i
+INNER JOIN
+	Customer AS c
+ON
+	i.CustomerId = c.CustomerId
+ORDER BY
+	c.CustomerId
+</sql><sql name="SQL 9">/*
 	CREATED BY: Otabek
 	CREATE DATE: 12/12/2023
-	DESCRIPTION: This query displays customers who bought tracks from cities that only have the letter B/b in their billing city
-*/
-SELECT
-	InvoiceDate,
-	BillingAddress,
-	BillingCity,
-	total
-FROM
-	Invoice
-WHERE
-	BillingCity LIKE '%B%'
-ORDER BY
-	InvoiceDate</sql><sql name="SQL 5">/*
-	CREATED BY: Otabek
-	CREATE DATE: 12/12/2023
-	DESCRIPTION: How many invoices were billed on 2010-05-22 00:00:00
-*/
-
-SELECT
-	InvoiceDate,
-	BillingAddress,
-	BillingCity,
-	total
-FROM
-	Invoice
-WHERE
-	DATE(InvoiceDate) = '2010-05-22'
-	InvoiceDate = '2010-05-22 00:00:00'
-ORDER BY
-	InvoiceDate</sql><sql name="SQL 6">/*
-	CREATED BY: Otabek
-	CREATE DATE: 12/12/2023
-	DESCRIPTION: Get all invoices that were billed after 2010-05-22 AND have a total of less than $3.00?
-*/
-
-SELECT
-	InvoiceDate,
-	BillingAddress,
-	BillingCity,
-	total
-FROM
-	Invoice
-WHERE
-	DATE(InvoiceDate) &gt; '2010-05-22' AND total&lt;3.00
-ORDER BY
-	InvoiceDate</sql><sql name="SQL 7">/*
-	CREATED BY: Otabek
-	CREATE DATE: 12/12/2023
-	DESCRIPTION: Want as many customers as possible to spend between $7.00 and $15.00
-	
-	Sales Categories:
-	Baseline Purchase--  Between 0.99 and 1.99
-	Low Purchase--  Between 2.00 and 6.99
-	Target Purchase--  Between 7.00 and 15.00
-	Top Performer--  Above 15.00
-*/
-
-SELECT
-	InvoiceDate,
-	BillingAddress,
-	BillingCity,
-	total,
-	CASE
-	WHEN total &lt; 2.00 THEN 'BASELINE PURCHASE'
-	WHEN total BETWEEN 2.00 AND 6.99 THEN 'LOW PURCHASE'
-	WHEN total BETWEEN 7.00 AND 15.00 THEN 'TARGET PURCHASE'
-	--WHEN total &gt; 15 THEN 'BASELINE PURCHASE'
-	ELSE 'TOP PERFORMER'
-	END AS PurchaseType
-
-FROM
-	Invoice
-WHERE
-	PurchaseType = 'TOP PERFORMER'
-ORDER BY
-	BillingCity</sql><sql name="SQL 8">/*
-	CREATED BY: Otabek
-	CREATE DATE: 12/12/2023
-	DESCRIPTION: Joins
+	DESCRIPTION: Left Join
 */
 
 SELECT
@@ -119,11 +140,98 @@ SELECT
 	i.InvoiceDate,
 	i.total
 FROM
+	Customer AS c
+LEFT OUTER JOIN
+	Invoice AS i
+ON
+	i.CustomerId = c.CustomerId
+
+</sql><sql name="SQL 10">/*
+	CREATED BY: Otabek
+	CREATE DATE: 12/12/2023
+	DESCRIPTION: Joins on more than 2 tables; What employees are responsible for the 10 highest individual sales?
+*/
+
+SELECT
+	c.FirstName,
+	c.LastName,
+	c.SupportRepId,
+	i.InvoiceId,
+	--i.CustomerId,
+		c.CustomerId,
+
+	i.total,
+	e.FirstName AS 'Employee First Name',
+	e.LastName AS 'Employee Last Name',
+	e.EmployeeId
+FROM
 	Invoice AS i
 INNER JOIN
 	Customer AS c
 ON
 	i.CustomerId = c.CustomerId
+INNER JOIN
+	Employee as e
+ON
+	c.SupportRepId = e.EmployeeId
 ORDER BY
-	c.CustomerId
-</sql><current_tab id="6"/></tab_sql></sqlb_project>
+	i.total DESC
+LIMIT 10
+</sql><sql name="SQL 11">/*
+	CREATED BY: Otabek
+	CREATE DATE: 12/12/2023
+	DESCRIPTION: Joins on more than 2 tables; What employees are responsible for the 10 highest individual sales?
+*/
+
+SELECT
+	c.FirstName,
+	c.LastName,
+	c.SupportRepId,
+	i.InvoiceId,
+	i.total,
+	e.FirstName AS 'Employee First Name',
+	e.LastName AS 'Employee Last Name',
+	e.EmployeeId
+FROM
+	Invoice AS i
+INNER JOIN
+	Customer AS c
+ON
+	i.CustomerId = c.CustomerId
+INNER JOIN
+	Employee as e
+ON
+	c.CustomerId = e.EmployeeId
+ORDER BY
+	i.total DESC
+LIMIT 10
+</sql><sql name="SQL 12">/*
+	CREATED BY: Otabek
+	CREATE DATE: 12/12/2023
+	DESCRIPTION: Joins on more than 2 tables; What employees are responsible for the 10 highest individual sales?
+*/
+
+SELECT
+	c.FirstName,
+	c.LastName,
+	c.SupportRepId,
+	i.InvoiceId,
+	c.CustomerId,
+	i.total,
+	e.FirstName AS 'Employee First Name',
+	e.LastName AS 'Employee Last Name',
+	e.EmployeeId
+FROM
+	Invoice AS i
+INNER JOIN
+	Customer AS c
+ON
+	i.CustomerId = c.CustomerId
+INNER JOIN
+	Employee as e
+ON
+	e.EmployeeId = c.CustomerId 
+ORDER BY
+	i.total DESC
+LIMIT 10
+</sql><current_tab id="10"/></tab_sql></sqlb_project>
