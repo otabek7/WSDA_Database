@@ -300,7 +300,7 @@ ORDER BY
 </sql><sql name="SQL 17">/*
 	CREATED BY: Otabek
 	CREATE DATE: 12/13/2023
-	DESCRIPTION: What are the average invoice totals BY CITY for ONLY cities that start with L?
+	DESCRIPTION: What are the average invoice totals grater than 5.00?
 */
 
 SELECT
@@ -308,10 +308,94 @@ SELECT
 	round(avg(total), 2)
 FROM
 	Invoice
+GROUP BY
+	BillingCity
+HAVING
+	avg(total)&gt;5
+ORDER BY
+	BillingCity
+</sql><sql name="SQL 18">/*
+	CREATED BY: Otabek
+	CREATE DATE: 12/13/2023
+	DESCRIPTION: Grouping by more than one field at a time
+*/
+
+SELECT
+	BillingCountry,
+	BillingCity,
+	round(avg(total), 2)
+FROM
+	Invoice
+GROUP BY
+	BillingCountry, BillingCity
+HAVING
+	avg(total)&gt;5
+ORDER BY
+	BillingCountry
+</sql><sql name="SQL 19">/*
+	CREATED BY: Otabek
+	CREATE DATE: 12/13/2023
+	DESCRIPTION: Subqueries | Gather data about all invoices that are less than this average?
+*/
+-- SELECT
+-- 	round(AVG(TOTAL),2) AS [Average Total]
+-- 	
+-- FROM
+-- 	Invoice
+	
+SELECT
+	InvoiceDate,
+	BillingAddress,
+	BillingCity,
+	total
+FROM
+	Invoice
 WHERE
-	BillingCity LIKE 'L%'
+	total&lt;
+	(SELECT
+	round(AVG(TOTAL),2) AS [Average Total]
+	
+FROM
+	Invoice
+	)
+ORDER BY
+	total DESC</sql><sql name="SQL 20">/*
+	CREATED BY: Otabek
+	CREATE DATE: 12/13/2023
+	DESCRIPTION: How is each individual city performing against the global average sales?
+*/
+	
+SELECT
+	BillingCity,
+	AVG(total) AS [City Average],
+	(SELECT AVG(total) from Invoice)  AS [Global Average]
+FROM
+	Invoice
 GROUP BY
 	BillingCity
 ORDER BY
 	BillingCity
-</sql><current_tab id="15"/></tab_sql></sqlb_project>
+</sql><sql name="SQL 21">/*
+	CREATED BY: Otabek
+	CREATE DATE: 12/13/2023
+	DESCRIPTION: Subqueries without Aggregate functions
+*/
+
+	
+SELECT
+	InvoiceDate,
+	BillingAddress,
+	BillingCity
+FROM
+	Invoice
+WHERE
+	InvoiceDate&gt;
+	(
+	SELECT
+		InvoiceDate
+	FROM
+		Invoice
+	WHERE
+		InvoiceId = 251
+	)
+	</sql><current_tab id="19"/></tab_sql></sqlb_project>
